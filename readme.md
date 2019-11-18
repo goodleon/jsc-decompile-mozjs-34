@@ -1,12 +1,10 @@
-1¡¢ÐèÒªÏÈ°²×°php7.0
-ÏÂÔØphp7.0 ¼ÓÈë»·¾³±äÁ¿
+1. éœ€è¦å…ˆå®‰è£…php7.0 ä¸‹è½½php7.0 åŠ å…¥çŽ¯å¢ƒå˜é‡
+    1. mac çŽ¯å¢ƒ ç›´æŽ¥æ‰§è¡Œ `brew install php@7.0`
+2. ä¿®æ”¹php.ini memory_limit = 512M #å¤§å°å¯æ ¹æ®è‡ªå·±å†…å­˜å¤§å°è°ƒèŠ‚
+    1. macä¸‹ æœªæ‰¾åˆ°è¯¥æ–‡ä»¶ ...
+3. æ·»åŠ ä¾èµ– `composer`
+    1. ç¬¬ä¸€æ¬¡å®‰è£…ä¾èµ– `composer install`
+    2. æ›´æ–°ä¾èµ– `composer update`
+4. åç¼–è¯‘æˆjsæ–‡ä»¶ $ php jsc2js.php *.jsc > test.js
+4. åæ±‡ç¼–æˆjs å­—èŠ‚ç æ–‡ä»¶ $ php jsc-byte.php > test.bytecode
 
-2¡¢ÐÞ¸Äphp.ini
-memory_limit = 512M #´óÐ¡¿É¸ù¾Ý×Ô¼ºÄÚ´æ´óÐ¡µ÷½Ú
-
-3¡¢·´±àÒë³ÉjsÎÄ¼þ
-$ php jsc2js.php *.jsc > test.js
-
-4¡¢·´»ã±à³Éjs ×Ö½ÚÂëÎÄ¼þ
-$ php jsc-byte.php > test.bytecode
-```
